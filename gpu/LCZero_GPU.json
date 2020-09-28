@@ -23,7 +23,7 @@
             },
             {
                 "name": "BackendOptions",
-                "value": "backend=cudnn-fp16,custom_winograd=true,(gpu=0),(gpu=1),(gpu=2),(gpu=3)"
+                "value": "backend=cudnn-fp16,custom_winograd=true,res_block_fusing=false,(gpu=0),(gpu=1),(gpu=2),(gpu=3)"
             },
             {
                 "name": "NNCacheSize",
