@@ -1,6 +1,6 @@
 [
     {
-        "name": "LCZero v0.26.2-rc1_J92-100",
+        "name": "LCZero v0.26.3-rc1_T60_SV_JH92-190",
         "command": "../gpu_engine.sh ./lc0",
         "restart": "on",
         "rating": "3821",
@@ -11,7 +11,7 @@
             },
             {
                 "name": "WeightsFile",
-                "value": "J92-100"
+                "value": "J92-190"
             },
             {
                 "name": "Threads",
@@ -79,19 +79,19 @@
             },
             {
                 "name": "MovesLeftThreshold",
-                "value": "0.862976"
+                "value": "0.0"
             },
             {
                 "name": "MovesLeftSlope",
-                "value": "0.0004"
+                "value": "0.004"
             },
             {
                 "name": "MovesLeftQuadraticFactor",
-                "value": "1.0"
+                "value": "0.0"
             },
             {
                 "name": "MovesLeftScaledFactor",
-                "value": "0.0"
+                "value": "1.0"
             },
             {
                 "name": "MovesLeftConstantFactor",
