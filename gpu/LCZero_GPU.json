@@ -3,7 +3,7 @@
         "name": "LCZero v0.26.3-rc1_T60.SV.JH.92-190",
         "command": "../gpu_engine.sh ./lc0 --show-hidden",
         "restart": "on",
-        "rating": "3821",
+        "rating": "3542",
         "options": [
             {
                 "name": "MoveOverheadMs",
@@ -124,6 +124,10 @@
             {
                 "name": "StrictTiming",
                 "value": "true"
+            },
+            {
+                "name": "CommandLineOptions",
+                "value": "--show-hidden"
             }
         ],
         "protocol": "uci",
