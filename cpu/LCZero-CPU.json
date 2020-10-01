@@ -1,6 +1,6 @@
     {
-        "name": "LCZeroCPU v0.26.2-rc1-n703810",
-        "command": "./lc0",
+        "name": "LCZeroCPU v0.26.2_T60.SV.2-5300",
+        "command": "./lc0 --show-hidden",
         "restart": "on",
         "rating": "3823",
         "options": [
@@ -10,7 +10,7 @@
             },
             {
                 "name": "WeightsFile",
-                "value": "b30e742bcfd905815e0e7dbd4e1bafb41ade748f85d006b8e28758f1a3107ae3"
+                "value": "128x10-t60-2-5300.pb.gz"
             },
             {
                 "name": "Threads",

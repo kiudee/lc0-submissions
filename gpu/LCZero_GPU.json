@@ -1,9 +1,9 @@
 [
     {
-        "name": "LCZero v0.26.2-rc1_J92-100",
-        "command": "../gpu_engine.sh ./lc0",
+        "name": "LCZero v0.26.3-rc1_T60.SV.JH.92-190",
+        "command": "../gpu_engine.sh ./lc0 --show-hidden",
         "restart": "on",
-        "rating": "3821",
+        "rating": "3542",
         "options": [
             {
                 "name": "MoveOverheadMs",
@@ -11,7 +11,7 @@
             },
             {
                 "name": "WeightsFile",
-                "value": "J92-100"
+                "value": "J92-190"
             },
             {
                 "name": "Threads",
@@ -23,7 +23,7 @@
             },
             {
                 "name": "BackendOptions",
-                "value": "backend=cudnn-fp16,custom_winograd=true,(gpu=0),(gpu=1),(gpu=2),(gpu=3)"
+                "value": "backend=cudnn-fp16,custom_winograd=true,res_block_fusing=true,(gpu=0),(gpu=1),(gpu=2),(gpu=3)"
             },
             {
                 "name": "NNCacheSize",
@@ -79,19 +79,19 @@
             },
             {
                 "name": "MovesLeftThreshold",
-                "value": "0.862976"
+                "value": "0.0"
             },
             {
                 "name": "MovesLeftSlope",
-                "value": "0.0004"
+                "value": "0.004"
             },
             {
                 "name": "MovesLeftQuadraticFactor",
-                "value": "1.0"
+                "value": "0.0"
             },
             {
                 "name": "MovesLeftScaledFactor",
-                "value": "0.0"
+                "value": "1.0"
             },
             {
                 "name": "MovesLeftConstantFactor",
@@ -124,6 +124,10 @@
             {
                 "name": "StrictTiming",
                 "value": "true"
+            },
+            {
+                "name": "CommandLineOptions",
+                "value": "--show-hidden"
             }
         ],
         "protocol": "uci",
