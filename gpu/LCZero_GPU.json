@@ -98,6 +98,10 @@
                 "value": "0.0"
             },
             {
+                "name": "TimeManager",
+                "value": "smooth"
+            },
+            {
                 "name": "VerboseMoveStats",
                 "value": "true"
             },
