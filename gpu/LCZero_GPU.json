@@ -71,7 +71,7 @@
             },
             {
                 "name": "SmartPruningMinimumBatches",
-                "value": "600"
+                "value": "300"
             },
             {
                 "name": "MovesLeftMaxEffect",
