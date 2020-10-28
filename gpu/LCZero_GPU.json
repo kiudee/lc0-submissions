@@ -98,6 +98,10 @@
                 "value": "0.0"
             },
             {
+                "name": "TimeManager",
+                "value": "legacy(steepness=4.0)"
+            },
+            {
                 "name": "VerboseMoveStats",
                 "value": "true"
             },
