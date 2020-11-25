@@ -1,0 +1,140 @@
+[
+    {
+        "name": "LCZero v0.26.3_T60.SV.JH.92-330",
+        "command": "../gpu_engine.sh ./lc0 --show-hidden",
+        "restart": "on",
+        "rating": "3542",
+        "options": [
+            {
+                "name": "MoveOverheadMs",
+                "value": "1000"
+            },
+            {
+                "name": "WeightsFile",
+                "value": "J92-330"
+            },
+            {
+                "name": "Threads",
+                "value": "2"
+            },
+            {
+                "name": "Backend",
+                "value": "demux"
+            },
+            {
+                "name": "BackendOptions",
+                "value": "backend=cuda-fp16,res_block_fusing=true,(gpu=0),(gpu=1),(gpu=2),(gpu=3)"
+            },
+            {
+                "name": "NNCacheSize",
+                "value": "20000000"
+            },
+            {
+                "name": "MinibatchSize",
+                "value": "320"
+            },
+            {
+                "name": "MaxPrefetch",
+                "value": "160"
+            },
+            {
+                "name": "MaxCollisionEvents",
+                "value": "917"
+            },
+            {
+                "name": "MaxOutOfOrderEvalsFactor",
+                "value": "2.4"
+            },
+            {
+                "name": "RootHasOwnCpuctParams",
+                "value": "false"
+            },
+            {
+                "name": "CPuct",
+                "value": "1.350"
+            },
+            {
+                "name": "CPuctBase",
+                "value": "20253"
+            },
+            {
+                "name": "FpuValue",
+                "value": "0.228"
+            },
+            {
+                "name": "CPuctFactor",
+                "value": "3.468"
+            },
+            {
+                "name": "PolicyTemperature",
+                "value": "1.497"
+            },
+            {
+                "name": "SmartPruningMinimumBatches",
+                "value": "300"
+            },
+            {
+                "name": "MovesLeftMaxEffect",
+                "value": "0.2"
+            },
+            {
+                "name": "MovesLeftThreshold",
+                "value": "0.0"
+            },
+            {
+                "name": "MovesLeftSlope",
+                "value": "0.004"
+            },
+            {
+                "name": "MovesLeftQuadraticFactor",
+                "value": "0.0"
+            },
+            {
+                "name": "MovesLeftScaledFactor",
+                "value": "1.0"
+            },
+            {
+                "name": "MovesLeftConstantFactor",
+                "value": "0.0"
+            },
+            {
+                "name": "TimeManager",
+                "value": "legacy(steepness=4.0)"
+            },
+            {
+                "name": "VerboseMoveStats",
+                "value": "true"
+            },
+            {
+                "name": "SyzygyPath",
+                "value": "/home/syzygy"
+            },
+            {
+                "name": "LogFile",
+                "value": "lc0.log"
+            },
+            {
+                "name": "Ponder",
+                "value": "false"
+            },
+            {
+                "name": "UCI_ShowWDL",
+                "value": "true"
+            },
+            {
+                "name": "UCI_ShowMovesLeft",
+                "value": "true"
+            },
+            {
+                "name": "StrictTiming",
+                "value": "true"
+            },
+            {
+                "name": "CommandLineOptions",
+                "value": "--show-hidden"
+            }
+        ],
+        "protocol": "uci",
+        "workingDirectory": "/home/tcec/Engines/LCZeroGPU/"
+    }
+]
