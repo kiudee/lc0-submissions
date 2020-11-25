@@ -46,28 +46,28 @@
                 "value": "2.4"
             },
             {
-                "name": "CPuct",
-                "value": "2.147"
+                "name": "RootHasOwnCpuctParams",
+                "value": "false"
             },
             {
-                "name": "CPuctAtRoot",
-                "value": "2.147"
+                "name": "CPuct",
+                "value": "1.350"
             },
             {
                 "name": "CPuctBase",
-                "value": "18368"
+                "value": "20253"
             },
             {
                 "name": "FpuValue",
-                "value": "0.443"
+                "value": "0.228"
             },
             {
                 "name": "CPuctFactor",
-                "value": "2.815"
+                "value": "3.468"
             },
             {
                 "name": "PolicyTemperature",
-                "value": "1.607"
+                "value": "1.497"
             },
             {
                 "name": "SmartPruningMinimumBatches",
