@@ -1,6 +1,6 @@
 [
     {
-        "name": "LCZero v0.26.3_T60.SV.JH.94-80",
+        "name": "LCZero v0.26.3_T60.66740",
         "command": "../gpu_engine.sh ./lc0 --show-hidden",
         "restart": "on",
         "rating": "3542",
@@ -11,7 +11,7 @@
             },
             {
                 "name": "WeightsFile",
-                "value": "J94-80"
+                "value": "f8964c9ee5f01521dee5a021bed8317bab5b877f08cc5b40e9a0df2b356b9bfa"
             },
             {
                 "name": "Threads",
