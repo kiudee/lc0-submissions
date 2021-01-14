@@ -30,6 +30,10 @@
                 "value": "20000000"
             },
             {
+                "name": "RamLimitMb",
+                "value": "96000"
+            },
+            {
                 "name": "MinibatchSize",
                 "value": "320"
             },
