@@ -1,6 +1,6 @@
 [
     {
-        "name": "LCZero v0.26.3_T60.66740",
+        "name": "LCZero 0.27.0d-Tilps-dje-magic_JH.94-100",
         "command": "../gpu_engine.sh ./lc0 --show-hidden",
         "restart": "on",
         "rating": "3542",
@@ -11,7 +11,7 @@
             },
             {
                 "name": "WeightsFile",
-                "value": "f8964c9ee5f01521dee5a021bed8317bab5b877f08cc5b40e9a0df2b356b9bfa"
+                "value": "J94-100"
             },
             {
                 "name": "Threads",
@@ -27,7 +27,11 @@
             },
             {
                 "name": "NNCacheSize",
-                "value": "20000000"
+                "value": "50000000"
+            },
+            {
+                "name": "RamLimitMb",
+                "value": "96000"
             },
             {
                 "name": "MinibatchSize",
