@@ -1,5 +1,5 @@
     {
-        "name": "LCZeroCPU v0.26.2_T60.SV.2-5300",
+        "name": "LCZeroCPU v0.26.2_JH.104.1-30",
         "command": "./lc0 --show-hidden",
         "restart": "on",
         "rating": "3823",
@@ -10,7 +10,7 @@
             },
             {
                 "name": "WeightsFile",
-                "value": "128x10-t60-2-5300.pb.gz"
+                "value": "J104.1-30"
             },
             {
                 "name": "Threads",
