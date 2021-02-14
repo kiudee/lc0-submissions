@@ -103,7 +103,7 @@
             },
             {
                 "name": "TimeManager",
-                "value": "legacy(steepness=4.0)"
+                "value": "legacy(steepness=7.0)"
             },
             {
                 "name": "VerboseMoveStats",
