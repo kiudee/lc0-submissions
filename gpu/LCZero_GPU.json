@@ -58,6 +58,10 @@
                 "value": "false"
             },
             {
+                "name": "Contempt",
+                "value": "1.0"
+            },
+            {
                 "name": "CPuct",
                 "value": "1.745"
             },
