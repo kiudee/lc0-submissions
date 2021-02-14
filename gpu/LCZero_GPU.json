@@ -46,6 +46,10 @@
                 "value": "917"
             },
             {
+                "name": "MaxCollisionVisits",
+                "value": "1000"
+            },
+            {
                 "name": "MaxOutOfOrderEvalsFactor",
                 "value": "2.4"
             },
