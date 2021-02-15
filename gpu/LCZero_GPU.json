@@ -107,7 +107,7 @@
             },
             {
                 "name": "TimeManager",
-                "value": "legacy(steepness=7.0)"
+                "value": "smooth"
             },
             {
                 "name": "VerboseMoveStats",
