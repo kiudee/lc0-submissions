@@ -1,6 +1,6 @@
 [
     {
-        "name": "LCZero 0.27.0d_JH.94-100",
+        "name": "LCZero 0.27.0-pr1509_JH.94-100",
         "command": "../gpu_engine.sh ./lc0 --show-hidden",
         "restart": "on",
         "rating": "3542",
