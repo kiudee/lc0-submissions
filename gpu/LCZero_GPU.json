@@ -1,6 +1,6 @@
 [
     {
-        "name": "LCZero 0.27.0-pr1540ish_JH.94-100",
+        "name": "LCZero 0.27.0-pr1540ish_68653",
         "command": "../gpu_engine.sh ./lc0 --show-hidden",
         "restart": "on",
         "rating": "3542",
@@ -11,7 +11,7 @@
             },
             {
                 "name": "WeightsFile",
-                "value": "J94-100"
+                "value": "405b0aeed366db2ba88bc86f780d79b919bd5cae4d2b86570b23cb40eb934af0"
             },
             {
                 "name": "DrawScoreSideToMove",
