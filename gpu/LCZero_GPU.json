@@ -15,11 +15,11 @@
             },
             {
                 "name": "DrawScoreSideToMove",
-                "value": "-18"
+                "value": "15"
             },
             {
                 "name": "DrawScoreOpponent",
-                "value": "25"
+                "value": "-27"
             },
             {
                 "name": "Threads",
