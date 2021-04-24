@@ -1,0 +1,88 @@
+[
+    {
+        "name": "LCZero 0.27.0-pr1540ish_JH.94-100",
+        "command": "../gpu_engine.sh ./lc0 --show-hidden",
+        "restart": "on",
+        "rating": "3542",
+        "options": [
+            {
+                "name": "MoveOverheadMs",
+                "value": "1000"
+            },
+            {
+                "name": "WeightsFile",
+                "value": "J94-100"
+            },
+            {
+                "name": "Threads",
+                "value": "2"
+            },
+            {
+                "name": "Backend",
+                "value": "demux"
+            },
+            {
+                "name": "BackendOptions",
+                "value": "backend=cuda-fp16,res_block_fusing=true,(gpu=0),(gpu=1),(gpu=2),(gpu=3)"
+            },
+            {
+                "name": "NNCacheSize",
+                "value": "50000000"
+            },
+            {
+                "name": "RamLimitMb",
+                "value": "96000"
+            },
+            {
+                "name": "MinibatchSize",
+                "value": "320"
+            },
+            {
+                "name": "MaxPrefetch",
+                "value": "160"
+            },
+            {
+                "name": "SmartPruningMinimumBatches",
+                "value": "300"
+            },
+            {
+                "name": "TimeManager",
+                "value": "legacy(steepness=7.0)"
+            },
+            {
+                "name": "VerboseMoveStats",
+                "value": "true"
+            },
+            {
+                "name": "SyzygyPath",
+                "value": "/home/syzygy"
+            },
+            {
+                "name": "LogFile",
+                "value": "lc0.log"
+            },
+            {
+                "name": "Ponder",
+                "value": "false"
+            },
+            {
+                "name": "UCI_ShowWDL",
+                "value": "true"
+            },
+            {
+                "name": "UCI_ShowMovesLeft",
+                "value": "true"
+            },
+            {
+                "name": "StrictTiming",
+                "value": "true"
+            },
+            {
+                "name": "CommandLineOptions",
+                "value": "--show-hidden"
+            }
+        ],
+        "protocol": "uci",
+        "workingDirectory": "/home/tcec/Engines/LCZeroGPU/"
+    }
+]
