@@ -3,15 +3,36 @@
         "name": "LCZero 0.27.0-pr1540ish_JH.94-100",
         "command": "../gpu_engine.sh ./lc0 --show-hidden",
         "restart": "on",
-        "rating": "3542",
+        "rating": "3640",
         "options": [
+            {
+                "name": "MaxOutOfOrderEvalsFactor",
+                "value": "2.4"
+            },
             {
                 "name": "MoveOverheadMs",
                 "value": "1000"
             },
             {
+                "name": "CPuct",
+                "value": "1.745"
+            
+            },
+            {
+                "name": "CPuctBase",
+                "value": "38739"
+            },
+            {
+                "name": "MultiGather",
+                "value": "true"
+            },
+            {
+                "name": "PolicyTemperature",
+                "value": "1.359"
+            }
+            {
                 "name": "WeightsFile",
-                "value": "J94-100"
+                "value": "/weights/weights-68614"
             },
             {
                 "name": "Threads",
@@ -23,31 +44,27 @@
             },
             {
                 "name": "BackendOptions",
-                "value": "backend=cuda-fp16,res_block_fusing=true,(gpu=0),(gpu=1),(gpu=2),(gpu=3)"
+                "value": "backend=cuda-fp16,res_block_fusing=true,(gpu=0),(gpu=1)"
             },
             {
                 "name": "NNCacheSize",
-                "value": "50000000"
-            },
-            {
-                "name": "RamLimitMb",
-                "value": "96000"
+                "value": "20000000"
             },
             {
                 "name": "MinibatchSize",
-                "value": "320"
+                "value": "192"
             },
             {
                 "name": "MaxPrefetch",
-                "value": "160"
+                "value": "48"
             },
             {
                 "name": "SmartPruningMinimumBatches",
-                "value": "300"
+                "value": "100"
             },
             {
                 "name": "TimeManager",
-                "value": "legacy(steepness=7.0)"
+                "value": "legacy(steepness=4.0)"
             },
             {
                 "name": "VerboseMoveStats",
@@ -55,7 +72,7 @@
             },
             {
                 "name": "SyzygyPath",
-                "value": "/home/syzygy"
+                "value": "/data/tablebases"
             },
             {
                 "name": "LogFile",
@@ -80,9 +97,13 @@
             {
                 "name": "CommandLineOptions",
                 "value": "--show-hidden"
-            }
+            },
+            {
+                "name": "FpuValue,
+                "value": "0.330"
+            },
+            "
         ],
         "protocol": "uci",
-        "workingDirectory": "/home/tcec/Engines/LCZeroGPU/"
-    }
+        "workingDirectory": "NOT GIFpuValueEN"
 ]
