@@ -1,0 +1,118 @@
+    {
+        "name": "LCZeroCPU v0.26.2_T70.JH.104.1-30",
+        "command": "./lc0 --show-hidden",
+        "restart": "on",
+        "rating": "3823",
+        "options": [
+            {
+                "name": "MoveOverheadMs",
+                "value": "1000"
+            },
+            {
+                "name": "WeightsFile",
+                "value": "J104.1-30"
+            },
+            {
+                "name": "Threads",
+                "value": "88"
+            },
+            {
+                "name": "NNCacheSize",
+                "value": "10000000"
+            },
+            {
+                "name": "MinibatchSize",
+                "value": "1"
+            },
+            {
+                "name": "MaxOutOfOrderEvalsFactor",
+                "value": "2.4"
+            },
+            {
+                "name": "CPuct",
+                "value": "1.745"
+            },
+            {
+                "name": "RootHasOwnCpuctParams",
+                "value": "false"
+            },
+            {
+                "name": "CPuctBase",
+                "value": "38739"
+            },
+            {
+                "name": "FpuValue",
+                "value": "0.330"
+            },
+            {
+                "name": "CPuctFactor",
+                "value": "3.894"
+            },
+            {
+                "name": "PolicyTemperature",
+                "value": "1.359"
+            },
+            {
+                "name": "MovesLeftMaxEffect",
+                "value": "0.2"
+            },
+            {
+                "name": "MovesLeftThreshold",
+                "value": "0.0"
+            },
+            {
+                "name": "MovesLeftSlope",
+                "value": "0.0004"
+            },
+            {
+                "name": "MovesLeftQuadraticFactor",
+                "value": "0.0"
+            },
+            {
+                "name": "MovesLeftConstantFactor",
+                "value": "0.0"
+            },
+            {
+                "name": "MovesLeftScaledFactor",
+                "value": "1.0"
+            },
+            {
+                "name": "MaxPrefetch",
+                "value": "0"
+            },
+            {
+                "name": "SmartPruningMinimumBatches",
+                "value": "10000"
+            },
+            {
+                "name": "VerboseMoveStats",
+                "value": "true"
+            },
+            {
+                "name": "SyzygyPath",
+                "value": "/home/syzygy"
+            },
+            {
+                "name": "LogFile",
+                "value": "lc0.log"
+            },
+            {
+                "name": "Ponder",
+                "value": "false"
+            },
+            {
+                "name": "UCI_ShowWDL",
+                "value": "true"
+            },
+            {
+                "name": "UCI_ShowMovesLeft",
+                "value": "true"
+            },
+            {
+                "name": "StrictTiming",
+                "value": "true"
+            }
+        ],
+        "protocol": "uci",
+        "workingDirectory": "/home/tcec/Engines/LCZeroCPU/"
+    },
