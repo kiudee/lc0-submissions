@@ -10,3 +10,5 @@ New submissions should include:
 - A build script which downloads/updates the source code and builds the engine.
 - A `README.md` file containing additional information about the tournament parameters (hardware, time control, openings, opponents etc).
 - (optional) Additional benchmark data provided by the tournament organizers.
+
+The goal of the root level configurations is to always have a semi-recent and stable configuration ready to use. Experimental configurations should therefore only be submitted as pull requests with the goal not to be merged.
