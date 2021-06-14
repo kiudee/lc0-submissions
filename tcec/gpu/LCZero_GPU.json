@@ -1,6 +1,6 @@
 [
     {
-        "name": "LCZero 0.27.0-pr1540ish_JH.94-100",
+        "name": "LCZero 0.27.0-pr1540ish_69146",
         "command": "../gpu_engine.sh ./lc0 --show-hidden",
         "restart": "on",
         "rating": "3542",
@@ -11,7 +11,7 @@
             },
             {
                 "name": "WeightsFile",
-                "value": "J94-100"
+                "value": "6ac6ae430a1f7c2e2272a1db8e39e9d4a9113677d8a52f011ff9a15886b7c6a0"
             },
             {
                 "name": "Threads",
