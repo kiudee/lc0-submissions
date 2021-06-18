@@ -54,6 +54,10 @@
                 "value": "300"
             },
             {
+                "name": "MovesLeftSlope",
+                "value": "0.0088"
+            },
+            {
                 "name": "TimeManager",
                 "value": "legacy(steepness=7.0)"
             },
