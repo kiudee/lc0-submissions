@@ -26,6 +26,10 @@
                 "value": "backend=cuda-fp16,res_block_fusing=true,(gpu=0),(gpu=1),(gpu=2),(gpu=3)"
             },
             {
+                "name": "DrawScoreSideToMove",
+                "value": "-11"
+            },
+            {
                 "name": "NNCacheSize",
                 "value": "50000000"
             },
