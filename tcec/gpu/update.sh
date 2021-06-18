@@ -1,5 +1,5 @@
 #!/bin/bash
-git clone --recurse-submodules git clone --recurse-submodules https://github.com/LeelaChessZero/lc0.git
+git clone --recurse-submodules https://github.com/LeelaChessZero/lc0.git
 cd lc0
 git checkout v0.28.0-rc1
 read -p "Download done, press enter to continue"
