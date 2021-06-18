@@ -30,6 +30,10 @@
                 "value": "-11"
             },
             {
+                "name": "DrawScoreOpponent",
+                "value": "5"
+            },
+            {
                 "name": "NNCacheSize",
                 "value": "50000000"
             },
