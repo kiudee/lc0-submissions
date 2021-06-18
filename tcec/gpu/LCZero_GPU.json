@@ -63,7 +63,7 @@
             },
             {
                 "name": "TimeManager",
-                "value": "legacy(steepness=7.0)"
+                "value": "smooth(midpoint=45.2,steepness=5.93,init-tree-reuse=0.52,max-tree-reuse=0.73,tree-reuse-update-rate=3.39,nps-update-rate=7.82,init-timeuse=0.7,min-timeuse=0.34,timeuse-update-rate=5.51,max-move-budget=0.42,init-piggybank=0.09,per-move-piggybank=0.12,max-piggybank-use=0.94,max-piggybank-moves=36.5)"
             },
             {
                 "name": "VerboseMoveStats",
