@@ -54,6 +54,10 @@
                 "value": "300"
             },
             {
+                "name": "MovesLeftMaxEffect",
+                "value": "0.1"
+            },
+            {
                 "name": "MovesLeftSlope",
                 "value": "0.0088"
             },
