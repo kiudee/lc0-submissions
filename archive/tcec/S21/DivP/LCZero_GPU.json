@@ -1,0 +1,104 @@
+[
+    {
+        "name": "LCZero 0.28.0-rc1_69146",
+        "command": "../gpu_engine.sh ./lc0 --show-hidden",
+        "restart": "on",
+        "rating": "3542",
+        "options": [
+            {
+                "name": "MoveOverheadMs",
+                "value": "1000"
+            },
+            {
+                "name": "WeightsFile",
+                "value": "6ac6ae430a1f7c2e2272a1db8e39e9d4a9113677d8a52f011ff9a15886b7c6a0"
+            },
+            {
+                "name": "Threads",
+                "value": "2"
+            },
+            {
+                "name": "Backend",
+                "value": "demux"
+            },
+            {
+                "name": "BackendOptions",
+                "value": "backend=cuda-fp16,(gpu=0),(gpu=1),(gpu=2),(gpu=3)"
+            },
+            {
+                "name": "DrawScoreSideToMove",
+                "value": "-11"
+            },
+            {
+                "name": "DrawScoreOpponent",
+                "value": "5"
+            },
+            {
+                "name": "NNCacheSize",
+                "value": "50000000"
+            },
+            {
+                "name": "RamLimitMb",
+                "value": "48000"
+            },
+            {
+                "name": "MinibatchSize",
+                "value": "896"
+            },
+            {
+                "name": "MaxPrefetch",
+                "value": "160"
+            },
+            {
+                "name": "SmartPruningMinimumBatches",
+                "value": "300"
+            },
+            {
+                "name": "MovesLeftMaxEffect",
+                "value": "0.1"
+            },
+            {
+                "name": "MovesLeftSlope",
+                "value": "0.0088"
+            },
+            {
+                "name": "TimeManager",
+                "value": "smooth(midpoint=45.2,steepness=5.93,init-tree-reuse=0.52,max-tree-reuse=0.73,tree-reuse-update-rate=3.39,nps-update-rate=7.82,init-timeuse=0.7,min-timeuse=0.34,timeuse-update-rate=5.51,max-move-budget=0.42,init-piggybank=0.09,per-move-piggybank=0.12,max-piggybank-use=0.94,max-piggybank-moves=36.5)"
+            },
+            {
+                "name": "VerboseMoveStats",
+                "value": "true"
+            },
+            {
+                "name": "SyzygyPath",
+                "value": "/home/syzygy"
+            },
+            {
+                "name": "LogFile",
+                "value": "lc0.log"
+            },
+            {
+                "name": "Ponder",
+                "value": "false"
+            },
+            {
+                "name": "UCI_ShowWDL",
+                "value": "true"
+            },
+            {
+                "name": "UCI_ShowMovesLeft",
+                "value": "true"
+            },
+            {
+                "name": "StrictTiming",
+                "value": "true"
+            },
+            {
+                "name": "CommandLineOptions",
+                "value": "--show-hidden"
+            }
+        ],
+        "protocol": "uci",
+        "workingDirectory": "/home/tcec/Engines/LCZeroGPU/"
+    }
+]
