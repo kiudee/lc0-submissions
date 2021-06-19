@@ -43,7 +43,7 @@
             },
             {
                 "name": "MinibatchSize",
-                "value": "320"
+                "value": "896"
             },
             {
                 "name": "MaxPrefetch",
