@@ -42,10 +42,6 @@
                 "value": "896"
             },
             {
-                "name": "CacheHistoryLength",
-                "value": "1"
-            },
-            {
                 "name": "SmartPruningMinimumBatches",
                 "value": "300"
             },
