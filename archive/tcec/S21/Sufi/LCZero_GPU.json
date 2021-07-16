@@ -75,7 +75,7 @@
             },
             {
                 "name": "MovesLeftSlope",
-                "value": "0.0088"
+                "value": "0.0001"
             },
             {
                 "name": "TimeManager",
