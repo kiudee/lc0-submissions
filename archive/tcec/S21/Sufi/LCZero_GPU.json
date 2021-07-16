@@ -1,6 +1,6 @@
 [
     {
-        "name": "LCZero 0.28-dev+_69146",
+        "name": "LCZero 0.28-dev+_69626",
         "command": "../gpu_engine.sh ./lc0 --show-hidden",
         "restart": "on",
         "rating": "3542",
@@ -11,7 +11,7 @@
             },
             {
                 "name": "WeightsFile",
-                "value": "6ac6ae430a1f7c2e2272a1db8e39e9d4a9113677d8a52f011ff9a15886b7c6a0"
+                "value": "1a0a9da3fa8c79379a4984a8afc43e21076c041917cc42f2a9a5faac27054dca"
             },
             {
                 "name": "Threads",
