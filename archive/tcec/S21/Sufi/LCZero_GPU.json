@@ -47,7 +47,11 @@
             },
             {
                 "name": "MaxPrefetch",
-                "value": "160"
+                "value": "896"
+            },
+            {
+                "name": "CacheHistoryLength",
+                "value": "1"
             },
             {
                 "name": "SmartPruningMinimumBatches",
