@@ -50,6 +50,14 @@
                 "value": "300"
             },
             {
+                "name": "SmartPruningFactor",
+                "value": "2.5"
+            },
+            {
+                "name": "SmartPruningQEffect",
+                "value": "0.7"
+            },
+            {
                 "name": "CPuct",
                 "value": "1.8035"
             },
