@@ -23,7 +23,7 @@
             },
             {
                 "name": "BackendOptions",
-                "value": "mlh=false,backend=cuda-fp16,(gpu=0),(gpu=1),(gpu=2),(gpu=3)"
+                "value": "backend=cuda-fp16,(gpu=0),(gpu=1),(gpu=2),(gpu=3)"
             },
             {
                 "name": "NNCacheSize",
@@ -40,6 +40,14 @@
             {
                 "name": "MaxPrefetch",
                 "value": "160"
+            },
+            {
+                "name": "MovesLeftMaxEffect",
+                "value": "0.02"
+            },
+            {
+                "name": "MovesLeftSlope",
+                "value": "0.002"
             },
             {
                 "name": "SmartPruningMinimumBatches",
