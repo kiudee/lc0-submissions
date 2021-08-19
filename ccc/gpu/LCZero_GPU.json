@@ -1,7 +1,7 @@
 [
     {
         "name": "NOT GIVEN",
-        "command": "../gpu_engine.sh ./lc0 --show-hidden",
+        "command": "NOT GIVEN",
         "restart": "on",
         "rating": "3640",
         "options": [
@@ -10,13 +10,16 @@
                 "value": "2.4"
             },
             {
+                "name": "CPuctFactor",
+                "value": "3.894"
+            }
+            {
                 "name": "MoveOverheadMs",
                 "value": "1000"
             },
             {
                 "name": "CPuct",
                 "value": "1.745"
-            
             },
             {
                 "name": "CPuctBase",
@@ -75,10 +78,6 @@
                 "value": "/data/tablebases"
             },
             {
-                "name": "LogFile",
-                "value": "lc0.log"
-            },
-            {
                 "name": "Ponder",
                 "value": "false"
             },
@@ -95,11 +94,7 @@
                 "value": "true"
             },
             {
-                "name": "CommandLineOptions",
-                "value": "--show-hidden"
-            },
-            {
-                "name": "FpuValue,
+                "name": "FpuValue",
                 "value": "0.330"
             },
             "
