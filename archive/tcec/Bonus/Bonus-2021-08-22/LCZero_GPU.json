@@ -23,7 +23,7 @@
             },
             {
                 "name": "BackendOptions",
-                "value": "backend=cuda-fp16,(gpu=0),(gpu=1),(gpu=2),(gpu=3)"
+                "value": "backend=cuda-fp16,(gpu=0),(gpu=1)"
             },
             {
                 "name": "NNCacheSize",
@@ -35,7 +35,7 @@
             },
             {
                 "name": "MinibatchSize",
-                "value": "896"
+                "value": "432"
             },
             {
                 "name": "MaxPrefetch",
