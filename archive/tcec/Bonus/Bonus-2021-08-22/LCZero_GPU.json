@@ -39,7 +39,7 @@
             },
             {
                 "name": "MaxPrefetch",
-                "value": "160"
+                "value": "37"
             },
             {
                 "name": "SmartPruningMinimumBatches",
