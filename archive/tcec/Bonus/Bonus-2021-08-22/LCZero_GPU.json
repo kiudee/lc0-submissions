@@ -1,7 +1,7 @@
 [
     {
         "name": "LCZero 0.28_69722-vf20",
-        "command": "../gpu_engine.sh ./lc0 --show-hidden",
+        "command": "taskset -c 0-51:2 ./lc0 --show-hidden",
         "restart": "on",
         "rating": "3542",
         "options": [
