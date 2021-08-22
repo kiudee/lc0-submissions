@@ -1,1 +1,1 @@
-../../archive/tcec/S21/Sufi/update.sh
+../../archive/tcec/Bonus/Bonus-2021-08-22/update.sh
