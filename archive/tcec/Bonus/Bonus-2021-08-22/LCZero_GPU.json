@@ -107,6 +107,6 @@
             }
         ],
         "protocol": "uci",
-        "workingDirectory": "/home/tcec/Engines/LCZeroGPU/"
+        "workingDirectory": "/home/tcec/Engines/LCZero/"
     }
 ]
