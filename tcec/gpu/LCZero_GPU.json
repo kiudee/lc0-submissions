@@ -15,7 +15,7 @@
             },
             {
                 "name": "Threads",
-                "value": "2"
+                "value": "3"
             },
             {
                 "name": "Backend",
@@ -35,11 +35,11 @@
             },
             {
                 "name": "MinibatchSize",
-                "value": "896"
+                "value": "432"
             },
             {
                 "name": "MaxPrefetch",
-                "value": "160"
+                "value": "37"
             },
             {
                 "name": "SmartPruningMinimumBatches",
@@ -55,7 +55,7 @@
             },
             {
                 "name": "TimeManager",
-                "value": "alphazero(alphazero-time-pct=23.0629)"
+                "value": "alphazero(alphazero-time-pct23.0629)"
             },
             {
                 "name": "VerboseMoveStats",
@@ -72,6 +72,10 @@
             {
                 "name": "CPuct",
                 "value": "2.0179"
+            },
+            {
+                "name": "CPuctBase",
+                "value": "50000.0"
             },
             {
                 "name": "CPuctFactor",
