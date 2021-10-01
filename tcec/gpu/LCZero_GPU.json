@@ -1,6 +1,6 @@
 [
     {
-        "name": "LCZero 0.28-dev+_69626",
+        "name": "LCZero 0.28-dev+_609958",
         "command": "../gpu_engine.sh ./lc0 --show-hidden",
         "restart": "on",
         "rating": "3542",
@@ -23,7 +23,7 @@
             },
             {
                 "name": "BackendOptions",
-                "value": "mlh=false,backend=cuda-fp16,(gpu=0),(gpu=1),(gpu=2),(gpu=3)"
+                "value": "backend=cuda-fp16,(gpu=0),(gpu=1),(gpu=2),(gpu=3)"
             },
             {
                 "name": "NNCacheSize",
