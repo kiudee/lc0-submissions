@@ -55,7 +55,7 @@
             },
             {
                 "name": "TimeManager",
-                "value": "alphazero(alphazero-time-pct23.0629)"
+                "value": "alphazero(alphazero-time-pct=23.0629)"
             },
             {
                 "name": "VerboseMoveStats",
