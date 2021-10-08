@@ -29,7 +29,7 @@
       },
       {
           "name": "BackendOptions",
-          "value": "backend=cuda-fp16,res_block_fusing=true,(gpu=0),(gpu=1)"
+          "value": "backend=cuda-fp16,multi_stream=true,(gpu=0),(gpu=1)"
       },
       {
           "name": "NNCacheSize",
