@@ -1,0 +1,118 @@
+{
+  "command": "./generic.sh lc0 GPU",
+  "name": "Lc0",
+  "protocol": "uci",
+  "options": [
+      {
+          "name": "WeightsFile",
+          "value": "/weights/weights-69958"
+      },
+      {
+          "name": "SyzygyPath",
+          "value": "/data/tablebases"
+      },
+      {
+          "name": "MoveOverheadMs",
+          "value": "1000"
+      },
+      {
+          "name": "MultiGather",
+          "value": "true"
+      },
+      {
+          "name": "Threads",
+          "value": "2"
+      },
+      {
+          "name": "Backend",
+          "value": "demux"
+      },
+      {
+          "name": "BackendOptions",
+          "value": "backend=cuda-fp16,multi_stream=true,(gpu=0),(gpu=1)"
+      },
+      {
+          "name": "NNCacheSize",
+          "value": "20000000"
+      },
+      {
+          "name": "MinibatchSize",
+          "value": "432"
+      },
+      {
+          "name": "MaxPrefetch",
+          "value": "37"
+      },
+      {
+          "name": "MaxOutOfOrderEvalsFactor",
+          "value": "2.4"
+      },
+      {
+          "name": "CPuct",
+          "value": "2.0179"
+      },
+      {
+          "name": "RootHasOwnCpuctParams",
+          "value": "false"
+      },
+      {
+          "name": "CPuctBase",
+          "value": "50000.0"
+      },
+      {
+          "name": "FpuValue",
+          "value": "0.4089"
+      },
+      {
+          "name": "CPuctFactor",
+          "value": "3.8542"
+      },
+      {
+          "name": "PolicyTemperature",
+          "value": "1.4229"
+      },
+      {
+          "name": "SmartPruningMinimumBatches",
+          "value": "300"
+      },
+      {
+        "name": "SmartPruningQEffect",
+        "value": "0.2"
+      },
+      {
+        "name": "SmartPruningFactor",
+        "value": "3.6141"
+      },
+      {
+          "name": "TimeManager",
+          "value": "alphazero(alphazero-time-pct=23.0629)"
+      },
+      {
+          "name": "VerboseMoveStats",
+          "value": "true"
+      },
+      {
+          "name": "Ponder",
+          "value": "false"
+      },
+      {
+          "name": "UCI_ShowWDL",
+          "value": "true"
+      },
+      {
+          "name": "UCI_ShowMovesLeft",
+          "value": "true"
+      },
+      {
+          "name": "StrictTiming",
+          "value": "true"
+      }
+  ],
+  "stderrFile": "/data/engines/lc0-ERROR.log",
+  "variants": [
+      "standard",
+      "fischerandom"
+  ],
+  "workingDirectory": "engines"
+}
+
