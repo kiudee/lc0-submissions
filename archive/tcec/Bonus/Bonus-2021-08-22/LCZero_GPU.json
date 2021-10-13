@@ -1,0 +1,112 @@
+[
+    {
+        "name": "LCZero 0.28_69722-vf20",
+        "command": "taskset -c 0-51:2 ./lc0 --show-hidden",
+        "restart": "on",
+        "rating": "3542",
+        "options": [
+            {
+                "name": "MoveOverheadMs",
+                "value": "1000"
+            },
+            {
+                "name": "WeightsFile",
+                "value": "69722_value_focus_v20.gz"
+            },
+            {
+                "name": "Threads",
+                "value": "3"
+            },
+            {
+                "name": "Backend",
+                "value": "demux"
+            },
+            {
+                "name": "BackendOptions",
+                "value": "backend=cuda-fp16,(gpu=0),(gpu=1)"
+            },
+            {
+                "name": "NNCacheSize",
+                "value": "50000000"
+            },
+            {
+                "name": "RamLimitMb",
+                "value": "96000"
+            },
+            {
+                "name": "MinibatchSize",
+                "value": "432"
+            },
+            {
+                "name": "MaxPrefetch",
+                "value": "37"
+            },
+            {
+                "name": "CPuct",
+                "value": "1.9642"
+            },
+            {
+                "name": "CPuctFactor",
+                "value": "4.3982"
+            },
+            {
+                "name": "CPuctBase",
+                "value": "50000.0"
+            },
+            {
+                "name": "FpuValue",
+                "value": "0.49"
+            },
+            {
+                "name": "PolicyTemperature",
+                "value": "1.5885"
+            },
+            {
+                "name": "SmartPruningFactor",
+                "value": "4.9336"
+            },
+            {
+                "name": "SmartPruningMinimumBatches",
+                "value": "300"
+            },
+            {
+                "name": "TimeManager",
+                "value": "alphazero(alphazero-time-pct=21.2427)"
+            },
+            {
+                "name": "VerboseMoveStats",
+                "value": "true"
+            },
+            {
+                "name": "SyzygyPath",
+                "value": "/home/syzygy"
+            },
+            {
+                "name": "LogFile",
+                "value": "lc0.log"
+            },
+            {
+                "name": "Ponder",
+                "value": "false"
+            },
+            {
+                "name": "UCI_ShowWDL",
+                "value": "true"
+            },
+            {
+                "name": "UCI_ShowMovesLeft",
+                "value": "true"
+            },
+            {
+                "name": "StrictTiming",
+                "value": "true"
+            },
+            {
+                "name": "CommandLineOptions",
+                "value": "--show-hidden"
+            }
+        ],
+        "protocol": "uci",
+        "workingDirectory": "/home/tcec/Engines/LCZero/"
+    }
+]
