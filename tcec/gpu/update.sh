@@ -1,1 +1,1 @@
-../archive/tcec/Cup9/update.sh
+../../archive/tcec/Cup9/update.sh
