@@ -1,1 +1,1 @@
-../../archive/tcec/S21/Sufi/update.sh
+../../archive/tcec/Cup9/update.sh
