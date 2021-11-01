@@ -1,9 +1,9 @@
 [
     {
         "name": "LCZero 0.28-dev+_609958",
-        "command": "../gpu_engine.sh ./lc0 --show-hidden",
+        "command": "taskset -c 0-51:2 ./lc0 --show-hidden",
         "restart": "on",
-        "rating": "3542",
+        "rating": "3622",
         "options": [
             {
                 "name": "MoveOverheadMs",
@@ -12,26 +12,6 @@
             {
                 "name": "WeightsFile",
                 "value": "6d26f4c03087d612776201aecdbc4ae792a2950d43dca90b1064307be4e889d5"
-            },
-            {
-                "name": "CPuct",
-                "value": "2.0179"
-            },
-            {
-                "name": "CPuctBase",
-                "value": "50000.0"
-            },
-            {
-                "name": "CPuctFactor",
-                "value": "3.8542"
-            },
-            {
-                "name": "FpuValue",
-                "value": "0.4089"
-            },
-            {
-                "name": "PolicyTemperature",
-                "value": "1.4229"
             },
             {
                 "name": "Threads",
@@ -62,12 +42,32 @@
                 "value": "37"
             },
             {
-                "name": "SmartPruningMinimumBatches",
-                "value": "300"
+                "name": "CPuct",
+                "value": "2.0179"
+            },
+            {
+                "name": "CPuctFactor",
+                "value": "3.8542"
+            },
+            {
+                "name": "CPuctBase",
+                "value": "50000.0"
+            },
+            {
+                "name": "FpuValue",
+                "value": "0.4089"
+            },
+            {
+                "name": "PolicyTemperature",
+                "value": "1.4229"
             },
             {
                 "name": "SmartPruningFactor",
                 "value": "3.6141"
+            },
+            {
+                "name": "SmartPruningMinimumBatches",
+                "value": "300"
             },
             {
                 "name": "TimeManager",
@@ -107,6 +107,6 @@
             }
         ],
         "protocol": "uci",
-        "workingDirectory": "/home/tcec/Engines/LCZeroGPU/"
+        "workingDirectory": "/home/tcec/Engines/LCZero/"
     }
 ]
